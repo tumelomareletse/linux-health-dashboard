@@ -1,0 +1,43 @@
+  ══════════════════════════════════════════════════════
+   🖥   LINUX SYSTEM HEALTH DASHBOARD
+   2026-05-24  15:22:42   │   Ubuntu
+  ══════════════════════════════════════════════════════
+
+  ─── SYSTEM INFO ─────────────────────────────────────
+  OS       :  Linux 7.0.0-15-generic
+  Arch     :  x86_64
+  Uptime   :  0d 4h 56m
+  Python   :  3.14.4
+  Load avg :  0.03  (1m)   0.02  (5m)   0.00  (15m)
+
+  ─── CPU ──────────────────────────────────────────────
+  Usage    :  [░░░░░░░░░░░░░░░░░░░░░░░░] 2.2%
+  Status   :  ✓  OK
+
+  ─── MEMORY (RAM) ────────────────────────────────────
+  Usage    :  [█████████░░░░░░░░░░░░░░░] 41.1%
+  Used     :  1,396 MB  /  3,398 MB
+  Status   :  ✓  OK
+
+  ─── DISK  [ / ] ─────────────────────────────────────
+  Usage    :  [████░░░░░░░░░░░░░░░░░░░░] 16.7%
+  Used     :  6.5 GB  /  39.1 GB
+  Status   :  ✓  OK
+
+  ─── TOP 5 PROCESSES  (by CPU%) ──────────────────────
+  COMMAND                          CPU%   MEM%      PID  USER
+  ────────────────────────────────────────────────────
+  ps aux --sort=-%cpu               100    0.1    13072  atlas
+  python3 dashboard.py --save      22.5    0.5    13067  atlas
+  /usr/bin/gnome-shell --mode=ub    3.3   12.1     3110  atlas
+  /usr/bin/ptyxis --gapplication    0.4    6.4    12929  atlas
+  /usr/bin/VBoxDRMClient            0.1    0.0     1839  root
+
+  ─── NETWORK INTERFACES ──────────────────────────────
+  lo               UNKNOWN        127.0.0.1/8 ::1/128 
+  enp0s3           UP             10.0.2.15/24 fd17:625c:f037:2:a00:27ff:fe15:b1e8/64 fe80::a00:27ff:fe15:b1e8/64
+
+  ══════════════════════════════════════════════════════
+   Report generated  2026-05-24  15:22:42
+   Script: dashboard.py  │  github.com/YOUR_USERNAME/linux-health-dashboard
+  ══════════════════════════════════════════════════════
