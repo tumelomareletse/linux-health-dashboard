@@ -2,10 +2,10 @@
 """
 ============================================================
   Linux System Health Dashboard
-  Author : Tumelo Mahlokoane
+  Author : Tumelo Mareletse
   Module : ITLSA1-T22 — Linux-based Operating System
            Eduvos | BSc IT: Software Engineering
-  GitHub : github.com/YOUR_USERNAME/linux-health-dashboard
+  GitHub : github.com/tumelomareletse/linux-health-dashboard
 ============================================================
   Description:
     A command-line tool that inspects the current state of
